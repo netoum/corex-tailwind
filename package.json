@@ -1,0 +1,114 @@
+{
+  "name": "@netoum/corex-tailwind",
+  "version": "0.0.1",
+  "description": "Corex default tailwind template providing global design tokens and component-level utility styles for scalable UI development.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/neo-light.css",
+  "unpkg": "./dist/neo-light.css",
+  "jsdelivr": "./dist/neo-light.css",
+  "exports": {
+    ".": {
+      "default": "./dist/neo-light.css"
+    },
+    "./neo.css": {
+      "default": "./dist/neo-light.css"
+    },
+    "./neo/*.css": {
+      "default": "./dist/neo-*.css"
+    },
+    "./revo.css": {
+      "default": "./dist/revo-light.css"
+    },
+    "./revo/*.css": {
+      "default": "./dist/revo-*.css"
+    },
+    "./uno.css": {
+      "default": "./dist/uno-light.css"
+    },
+    "./uno/*.css": {
+      "default": "./dist/uno-*.css"
+    },
+
+    "./tokens/neo/light/global/*.css": {
+      "default": "./dist/tokens/neo/light/global/*.css"
+    },
+
+    "./tokens/neo/light/semantic/*.css": {
+      "default": "./dist/tokens/neo/light/semantic/*.css"
+    },
+
+    "./tokens/neo/dark/global/*.css": {
+      "default": "./dist/tokens/neo/dark/global/*.css"
+    },
+
+    "./tokens/neo/dark/semantic/*.css": {
+      "default": "./dist/tokens/neo/dark/semantic/*.css"
+    },
+
+    "./tokens/revo/light/global/*.css": {
+      "default": "./dist/tokens/revo/light/global/*.css"
+    },
+
+    "./tokens/revo/light/semantic/*.css": {
+      "default": "./dist/tokens/revo/light/semantic/*.css"
+    },
+
+    "./tokens/revo/dark/global/*.css": {
+      "default": "./dist/tokens/revo/dark/global/*.css"
+    },
+
+    "./tokens/revo/dark/semantic/*.css": {
+      "default": "./dist/tokens/revo/dark/semantic/*.css"
+    },
+
+    "./tokens/uno/light/global/*.css": {
+      "default": "./dist/tokens/uno/light/global/*.css"
+    },
+
+    "./tokens/uno/light/semantic/*.css": {
+      "default": "./dist/tokens/uno/light/semantic/*.css"
+    },
+
+    "./tokens/uno/dark/global/*.css": {
+      "default": "./dist/tokens/uno/dark/global/*.css"
+    },
+
+    "./tokens/uno/dark/semantic/*.css": {
+      "default": "./dist/tokens/uno/dark/semantic/*.css"
+    },
+
+    "./components/*.css": {
+      "default": "./dist/components/*.css"
+    }
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/netoum/corex-tailwind.git"
+  },
+  "author": "Netoum <info@netoum.com> (https://www.netoum.com)",
+  "files": [
+    "README.md",
+    "CHANGELOG.md",
+    "package.json",
+    "dist/*"
+  ],
+  "scripts": {
+    "build": "npm run build:neo:light && npm run build:neo:dark && npm run build:revo:light && npm run build:revo:dark && npm run build:uno:light && npm run build:uno:dark && node build.mjs",
+    "build:neo:light": "npx designex build --script=design/neo/light/build.mjs",
+    "build:neo:dark": "npx designex build --script=design/neo/dark/build.mjs",
+    "build:revo:light": "npx designex build --script=design/revo/light/build.mjs",
+    "build:revo:dark": "npx designex build --script=design/revo/dark/build.mjs",
+    "build:uno:light": "npx designex build --script=design/uno/light/build.mjs",
+    "build:uno:dark": "npx designex build --script=design/uno/dark/build.mjs",
+    "build:from:css": "node build.mjs"
+  },
+  "devDependencies": {
+    "@netoum/designex": "^1.0.2",
+    "@tokens-studio/sd-transforms": "^1.2.9",
+    "style-dictionary": "^4.3.0",
+    "turbo": "^2.5.0",
+    "fs-extra": "^11.3.0"
+  }
+}
