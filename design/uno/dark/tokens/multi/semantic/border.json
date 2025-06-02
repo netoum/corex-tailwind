@@ -2,7 +2,7 @@
   "border": {
     "radius": {
       "default": {
-        "value": "{border.radius.2}",
+        "value": "{border.radius.0}",
         "type": "borderRadius"
       }
     },
@@ -14,7 +14,7 @@
     },
     "color": {
       "default": {
-        "value": "{color.base.5}",
+        "value": "{color.brand.6}",
         "type": "color"
       }
     }

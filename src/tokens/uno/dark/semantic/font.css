@@ -3,11 +3,11 @@
  */
 
 @theme inline {
-  --font-line-height: var(--font-line-height-4);
-  --font-size: var(--font-size-5);
-  --font-size-sm: var(--font-size-4);
-  --font-size-lg: var(--font-size-6);
-  --font-size-xl: var(--font-size-7);
-  --font-family: var(--font-outfit);
+  --font-line-height: var(--font-line-height-5);
+  --font-size: var(--font-size-4);
+  --font-size-sm: var(--font-size-3);
+  --font-size-lg: var(--font-size-5);
+  --font-size-xl: var(--font-size-6);
+  --font-family: var(--font-noto-serif);
   --font-family-code: var(--font-monospace-code);
 }

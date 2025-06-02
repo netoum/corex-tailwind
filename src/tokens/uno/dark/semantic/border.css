@@ -3,7 +3,7 @@
  */
 
 @theme inline {
-  --border-radius: var(--border-radius-2);
+  --border-radius: var(--border-radius-0);
   --border-width: var(--border-width-1);
-  --border-color: var(--color-base-5);
+  --border-color: var(--color-brand-6);
 }
