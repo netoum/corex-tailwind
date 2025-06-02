@@ -29,59 +29,30 @@
     "./uno/*.css": {
       "default": "./dist/uno-*.css"
     },
-
-    "./tokens/neo/light/global/*.css": {
-      "default": "./dist/tokens/neo/light/global/*.css"
+    "./tokens/global/*.css": {
+      "default": "./dist/tokens/global/*.css"
     },
-
     "./tokens/neo/light/semantic/*.css": {
       "default": "./dist/tokens/neo/light/semantic/*.css"
     },
-
-    "./tokens/neo/dark/global/*.css": {
-      "default": "./dist/tokens/neo/dark/global/*.css"
-    },
-
     "./tokens/neo/dark/semantic/*.css": {
       "default": "./dist/tokens/neo/dark/semantic/*.css"
     },
-
-    "./tokens/revo/light/global/*.css": {
-      "default": "./dist/tokens/revo/light/global/*.css"
-    },
-
     "./tokens/revo/light/semantic/*.css": {
       "default": "./dist/tokens/revo/light/semantic/*.css"
     },
-
-    "./tokens/revo/dark/global/*.css": {
-      "default": "./dist/tokens/revo/dark/global/*.css"
-    },
-
     "./tokens/revo/dark/semantic/*.css": {
       "default": "./dist/tokens/revo/dark/semantic/*.css"
     },
-
-    "./tokens/uno/light/global/*.css": {
-      "default": "./dist/tokens/uno/light/global/*.css"
-    },
-
     "./tokens/uno/light/semantic/*.css": {
       "default": "./dist/tokens/uno/light/semantic/*.css"
     },
-
-    "./tokens/uno/dark/global/*.css": {
-      "default": "./dist/tokens/uno/dark/global/*.css"
-    },
-
     "./tokens/uno/dark/semantic/*.css": {
       "default": "./dist/tokens/uno/dark/semantic/*.css"
     },
-
     "./components/*.css": {
       "default": "./dist/components/*.css"
     }
-
   },
   "repository": {
     "type": "git",
