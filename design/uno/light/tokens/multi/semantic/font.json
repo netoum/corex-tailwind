@@ -2,7 +2,7 @@
   "font": {
     "family": {
       "default": {
-        "value": "{font.outfit}",
+        "value": "{font.noto-serif}",
         "type": "fontFamily"
       },
       "code": {
@@ -12,25 +12,25 @@
     },
     "size": {
       "default": {
-        "value": "{font.size.5}",
-        "type": "fontSize"
-      },
-      "sm": {
         "value": "{font.size.4}",
         "type": "fontSize"
       },
+      "sm": {
+        "value": "{font.size.3}",
+        "type": "fontSize"
+      },
       "lg": {
-        "value": "{font.size.6}",
+        "value": "{font.size.5}",
         "type": "fontSize"
       },
       "xl": {
-        "value": "{font.size.7}",
+        "value": "{font.size.6}",
         "type": "fontSize"
       }
     },
     "line-height": {
       "default": {
-        "value": "{font.line-height.4}",
+        "value": "{font.line-height.5}",
         "type": "lineHeight"
       }
     }

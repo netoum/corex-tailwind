@@ -60,7 +60,7 @@ async function semantic() {
           files: [{
             destination: `neo/dark/${set}.css`,
             format: 'css/variables',
-            options: {
+            options: {              
               selector: `@theme inline`,
               outputReferences: true
             },
@@ -88,7 +88,7 @@ async function global() {
           files: [{
             destination: `${set}.css`,
             format: 'css/variables',
-            options: {
+            options: {           
               selector: `@theme inline`,
               outputReferences: true
             },

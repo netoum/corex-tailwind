@@ -2,7 +2,7 @@
   "height": {
     "ui": {
       "default": {
-        "value": "{size.15}",
+        "value": "{size.14}",
         "type": "sizing"
       },
       "sm": {
@@ -10,11 +10,11 @@
         "type": "sizing"
       },
       "lg": {
-        "value": "{size.16}",
+        "value": "{size.15}",
         "type": "sizing"
       },
       "xl": {
-        "value": "{size.17}",
+        "value": "{size.16}",
         "type": "sizing"
       }
     }
@@ -26,15 +26,15 @@
         "type": "sizing"
       },
       "sm": {
-        "value": "{size.5}",
+        "value": "{size.4}",
         "type": "sizing"
       },
       "lg": {
-        "value": "{size.7}",
+        "value": "{size.6}",
         "type": "sizing"
       },
       "xl": {
-        "value": "{size.8}",
+        "value": "{size.7}",
         "type": "sizing"
       }
     }
@@ -50,19 +50,19 @@
   "gap": {
     "ui": {
       "default": {
-        "value": "{size.7}",
-        "type": "sizing"
-      },
-      "sm": {
         "value": "{size.6}",
         "type": "sizing"
       },
+      "sm": {
+        "value": "{size.5}",
+        "type": "sizing"
+      },
       "lg": {
-        "value": "{size.8}",
+        "value": "{size.7}",
         "type": "sizing"
       },
       "xl": {
-        "value": "{size.9}",
+        "value": "{size.8}",
         "type": "sizing"
       }
     }

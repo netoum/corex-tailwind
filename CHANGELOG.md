@@ -1,8 +1,15 @@
 # 📦 Changelog – @netoum/corex-css
 
+## [0.0.2] – 2025-06-02
+
+- Design Tokens fixes
+- Package export fixes
+  
+---
+
 ## [0.0.1] – 2025-06-01
 
-🎉 Initial release of Corex CSS!
+🎉 Initial release of Corex Tailwind!
 
 ### ✨ Added
 
