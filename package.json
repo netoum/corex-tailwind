@@ -1,6 +1,6 @@
 {
   "name": "@netoum/corex-tailwind",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Corex default tailwind template providing global design tokens and component-level utility styles for scalable UI development.",
   "license": "MIT",
   "type": "module",
